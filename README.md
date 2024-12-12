@@ -11,7 +11,6 @@ The goal is to provide healthcare professionals with insights into how different
 - [Usage](#usage)
 - [Data Description](#data-description)
 - [Model Architecture](#model-architecture)
-- [Hyperparameter Tuning](#hyperparameter-tuning)
 - [Results](#results)
 - [Visualizations](#visualizations)
 - [Contributing](#contributing)
@@ -59,12 +58,7 @@ The model consists of:
 - Multiple hidden layers with ReLU activation functions.
 - An output layer that predicts the diabetes progression value.
 
-### Hyperparameter Tuning
 
-Hyperparameter tuning was performed using Keras Tuner to optimize:
-- Number of hidden layers
-- Number of units in each layer
-- L2 regularization strength
 
 ## Results
 

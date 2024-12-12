@@ -1,8 +1,9 @@
+
 # Diabetes Progression Prediction Using Deep Learning
 
 ## Project Overview
 
-This project aims to predict the progression of diabetes in patients using Artificial Neural Networks (ANN). The model utilizes the well-known Diabetes dataset from the `sklearn` library to train and evaluate its performance.
+This project aims to predict the progression of diabetes in patients using Artificial Neural Networks (ANN). The model utilizes the well-known Diabetes dataset from the `sklearn` library to train and evaluate its performance. 
 The goal is to provide healthcare professionals with insights into how different factors influence diabetes progression, aiding in better treatment plans and preventive measures.
 
 ## Table of Contents
@@ -59,15 +60,14 @@ The model consists of:
 - An output layer that predicts the diabetes progression value.
 
 
-
 ## Results
 
-The performance of the model was evaluated using Mean Squared Error (MSE) and R² Score before and after hyperparameter tuning:
+The performance of the model was evaluated using Mean Squared Error (MSE) and R² Score before and after potential improvements:
 
 | Metric                     | Before Improvement | After Improvement |
 |----------------------------|--------------------|-------------------|
-| Mean Squared Error (MSE)   | 2888.27            | 2878.51           |
-| R² Score                   | 0.39               | 0.46              |
+| Mean Squared Error (MSE)   | 2811.82            | 2569.98           |
+| R² Score                   | 0.40               | 0.51              |
 
 ## Visualizations
 
@@ -83,4 +83,3 @@ Contributions are welcome! If you have suggestions for improvements or additiona
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
